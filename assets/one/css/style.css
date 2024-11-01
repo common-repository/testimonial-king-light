@@ -1,0 +1,280 @@
+.one .gmctk-testimonial-board-off {
+ 
+}
+.one .gmctk-testimonial {
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 300px;
+  min-height: 400px;
+}
+
+.slick-slider {
+  margin: 30px auto 50px;
+}
+
+.slick-prev,
+.slick-next {
+  color: white;
+  opacity: 1;
+  height: 40px;
+  width: 40px;
+  margin-top: -20px;
+  background: rgba(0, 0, 0, 0.14);
+}
+.slick-prev path,
+.slick-next path {
+  fill: rgba(255, 255, 255, 0.4);
+}
+.slick-prev:hover path,
+.slick-next:hover path {
+  fill: #FFFFFF;
+}
+
+.slick-prev {
+  left: -35px;
+}
+
+.slick-next {
+  right: -35px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: none;
+}
+
+.slick-dots li button:before {
+  color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  font-size: 8px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #d8d8d8;
+}
+.slick-slider .slick-slide{
+    position:absolute;
+}
+ .slick-slider .slick-slide:first-child{
+    position:relative;
+}
+.slick-initialized.slick-slider .slick-slide,
+.slick-initialized.slick-slider .slick-slide:first-child{
+    position:relative;
+}
+.one .quote-container {
+  min-height: 200px;
+  color: #666666;
+  font-size: 36px;
+  margin: 0 20px;
+  position: relative;
+  outline: none;
+}
+.one .quote-container:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.one .gmctk-testimonial button{
+    z-index: 9999;
+}
+.one .quote-container .portrait {
+  position: absolute;
+  top: 20%;
+  
+  margin: auto;
+  height: 140px;
+  width: 140px;
+  overflow: hidden;
+}
+.one .multiple-items .portrait{
+    position: relative;
+}
+.one .quote-container .portrait img {
+  display: block;
+  min-height: 100%;
+  min-width: 100%;
+}
+.one .quote-container .quote{
+  position: relative;
+  z-index: 600;
+  padding: 40px 0 40px 180px;
+  margin: 0;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.4 !important;
+  font-family: Calibri;
+  color: white;
+}
+
+.one .multiple-items .quote{
+    padding: 0;
+    padding-top: 10px;
+}
+.one .quote-container .quote p {
+  position: relative;
+  font-size: 20px !important;
+  font-style: italic;
+  line-height: 1.4 !important;
+  font-family: Calibri;
+  margin-bottom: 20px;
+  word-wrap: normal;
+}
+.one .quote:before {
+  content: '\201C' !important;
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 7.5em;
+  font-weight: 700;
+  opacity: 1;
+  position: absolute;
+  top: -20px;
+ 
+  text-shadow: none;
+  z-index: -10;
+}
+.one .quote-container .quote cite {
+  display: block;
+  font-size: 14px;
+  line-height: 16px !important;
+}
+.one .quote-container .quote cite span {
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.one .quote blockquote{
+   border-left: 0px;
+   padding-top: 0px;
+   border-color: transparent !important;
+   padding-bottom: 0px;
+}
+.one .quote-container .gmctk-star img{
+    display: inline-block !important;
+    width: 20px !important;
+   
+}
+.one .dragging .quote-container {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.one .quote-container .gmctk-image-left,.one .quote-container .gmctk-image-right{
+    position: absolute;
+}
+.one .quote-container .gmctk-image-top,.one .quote-container .gmctk-image-bottom{
+    position: relative;
+}
+.one .quote-container .gmctk-image-normal{
+    border-radius: 0px;
+}
+.one .quote-container .gmctk-image-rounded{
+    border-radius: 30px;
+}
+.one .quote-container .gmctk-image-circle{
+    border-radius: 70px;
+}
+.one .gmctk-image-right{
+    right: 0;
+}
+.one .gmctk-right .quote {
+ 
+  padding: 40px 180px 0 0;
+ 
+}
+.one .gmctk-bottom .quote {
+  
+  padding: 40px 0 0 180px;
+  
+}
+.one .gmctk-top .quote,.gmctk-bottom .quote {
+ 
+  padding: 0;
+ 
+ 
+}
+.one .gmctk-top .quote::before,.one  .gmctk-bottom .quote::before{
+    top:-60px;
+}
+.one .multiple-items .quote-container .quote{
+    padding: 0px;
+}
+.one .multiple-items .gmctk-image-left +.quote{
+    width: 75%;
+    left: 155px;
+    
+}
+.one .multiple-items .gmctk-right .quote{
+    width: 70%;
+ }
+.one .multiple-items .gmctk-right .quote::before,.one .multiple-items .gmctk-image-left  +.quote::before{
+	 top: -55px;
+ }
+
+@media only screen and (max-device-width: 480px) {
+.one .quote-container .gmctk-image-top,
+.one .quote-container .gmctk-image-bottom,
+.one .quote-container .gmctk-image-left,.quote-container .gmctk-image-right
+{
+    position: relative;
+   
+}
+.one .quote-container .quote{
+     padding: 0;
+}
+ .gmctk-right .quote::before, .gmctk-image-left  +.quote::before{
+	 top: -55px;
+ }
+	}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 5% 0%;
+  }
+  50% {
+    background-position: 96% 100%;
+  }
+  100% {
+    background-position: 5% 0%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 5% 0%;
+  }
+  50% {
+    background-position: 96% 100%;
+  }
+  100% {
+    background-position: 5% 0%;
+  }
+}
+.responsive .slick-next{
+   
+   right: 0 !important;
+    
+}
+.responsive .slick-prev{
+    left: 0 !important;
+    z-index: 1;
+}
+.one .gmctkone{
+-webkit-box-shadow: 0px 4px 21px 2px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 4px 21px 2px rgba(0,0,0,0.76);
+box-shadow: 0px 4px 21px 2px rgba(0,0,0,0.76);
+
+
+}
+.one .gmctktwo{
+-webkit-box-shadow: inset 0px 4px 21px 2px rgba(0,0,0,0.76);
+-moz-box-shadow: inset 0px 4px 21px 2px rgba(0,0,0,0.76);
+box-shadow: inset 0px 4px 21px 2px rgba(0,0,0,0.76);
+}
+.one .gmctkthree .portrait{
+ border: 1px solid #fff;
+-webkit-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.76);
+box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.76);
+}
+.one .gmctkfour .portrait{
+   border: 5px solid #fff;
+}
